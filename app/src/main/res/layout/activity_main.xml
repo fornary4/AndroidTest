@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Button_into_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_into_textview"
+        android:textSize="20sp"
+        android:textColor="#ffff55"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Button_into_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_into_edittext"
+        android:textSize="20sp"
+        android:textColor="#ff0055"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_textview"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Button_into_radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_into_radiobutton"
+        android:textSize="20sp"
+        android:textColor="#00ff55"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_edittext"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Button_into_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_into_checkbox"
+        android:textSize="20sp"
+        android:textColor="#ff5555"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_radiobutton"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/Button_into_webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_into_webview"
+        android:textSize="20sp"
+        android:textColor="#0f0055"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_checkbox"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Button_into_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_into_fragment"
+        android:textColor="#00ffff"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_webview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+    <Button
+        android:id="@+id/Button_into_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="help"
+        android:textColor="#ff6444"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/Button_into_fragment"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkbox">
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你会哪些语言"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <CheckBox
+        android:id="@+id/checkbox_cpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1"
+        android:text="cpp"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <CheckBox
+        android:id="@+id/checkbox_php"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_cpp"
+        android:text="php"
+        android:textColor="#ff00ff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <CheckBox
+        android:id="@+id/checkbox_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_php"
+        android:text="java"
+        android:textColor="#00ff00"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <CheckBox
+        android:id="@+id/checkbox_swift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_java"
+        android:text="swift"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

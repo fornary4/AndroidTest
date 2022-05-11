@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fornary</string>
+    <string name="textview_test_1">I use java</string>
+    <string name="textview_test_2">I use cpp</string>
+    <string name="textview_test_3">I use python</string>
+    <string name="button_into_textview">TextView</string>
+    <string name="Button_into_edittext">EditText</string>
+    <string name="Button_into_radiobutton">radiobutton</string>
+    <string name="Button_into_checkbox">checkbox</string>
+    <string name="Button_into_webview">webview</string>
+    <string name="Button_into_fragment">fragment</string>
+</resources>
